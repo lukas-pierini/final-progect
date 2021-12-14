@@ -1,0 +1,43 @@
+.fist-body{
+    background-color: black;
+}
+
+.grid-container{
+    display : grid;
+    background-color: aqua;
+    grid-template-rows: auto auto auto 500px;
+    grid-gap: 10px;
+    padding: -10px;
+    row-gap: 1px;
+}
+
+.item-1{
+    box-sizing: 200px;
+    background-color: burlywood;
+    text-align: center;
+    padding: 10px;
+    display: inline-block;
+}
+.first-img{
+    float: left;
+}
+
+
+.header{
+    float: right;
+    display: inline;
+}
+
+.item-3{
+    color: black;
+    background-color: burlywood;
+    padding-left: 500px;
+    word-spacing: 5px;
+    text-size-adjust: px;
+    font-size: 20px;
+}
+
+.item-4{
+    background-color: burlywood;
+    padding-left: 20px;
+}
