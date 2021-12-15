@@ -4,33 +4,37 @@
 
 .grid-container{
     display : grid;
-    background-color: aqua;
-    grid-template-rows: auto auto auto 500px;
-    grid-gap: 10px;
-    padding: -10px;
+    background-color: rgb(184,46,7);
+    grid-template-rows: auto auto 150px auto;
+    grid-gap: 0px;
     row-gap: 1px;
 }
 
 .item-1{
-    box-sizing: 200px;
-    background-color: burlywood;
+    background-color: black;
     text-align: center;
     padding: 10px;
     display: inline-block;
+    font-size: 40px;
 }
 .first-img{
     float: left;
+    height: 210px;
+    width: 210px;
+    padding-bottom: 5px;
 }
 
 
 .header{
     float: right;
     display: inline;
+    padding: 0px;
+    color: rgb(184,46,7);
 }
 
 .item-3{
     color: black;
-    background-color: burlywood;
+    background-color: rgb(184,46,7);
     padding-left: 500px;
     word-spacing: 5px;
     text-size-adjust: px;
@@ -38,6 +42,36 @@
 }
 
 .item-4{
-    background-color: burlywood;
-    padding-left: 20px;
+    background-color: black;
+    padding-left: 5px;
+    color: rgb(184,46,7);
+    font-size: 18px;
+    text-align: justify;
+    display: inline;
+    font-size: 20px;
+    font-style: VT323;
+}
+
+.second-img{
+    width: 400px;
+    height: 232px;
+    float: right;
+}
+
+.third-img{
+    width: 568 px;
+    height: 320px;
+    float: right;
+    
+}
+
+.footer{
+    float: right;
+    font-size: 20px;
+}
+
+.forth-img{
+    width: 568 px;
+    height: 320px;
+    float: right;
 }
